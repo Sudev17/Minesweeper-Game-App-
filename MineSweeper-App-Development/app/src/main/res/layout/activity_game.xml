@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="16dp"
+
+    >
+
+    <!-- Blue color strip -->
+    <View
+        android:id="@+id/blueStrip"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/medium_slate_blue"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentTop="true"/>
+
+    <!-- Minesweeper text inside the blue strip -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MINE SWEEPER"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_alignTop="@id/blueStrip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"/>
+
+    <!-- Center the GridView in the middle of the screen -->
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numColumns="6"
+        android:verticalSpacing="5dp"
+        android:horizontalSpacing="5dp"
+        android:layout_below="@id/blueStrip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Score TextView below the GridView -->
+    <Button
+        android:id="@+id/scoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: 0"
+        android:textSize="20sp"
+        android:layout_below="@id/gridView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Play Again button below the Score TextView -->
+    <Button
+        android:id="@+id/playAgainButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play Again"
+        android:textSize="20sp"
+        android:layout_below="@id/scoreTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Quit button below the Play Again button -->
+    <Button
+        android:id="@+id/quitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quit"
+        android:layout_below="@id/playAgainButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0.01px"/>
+</RelativeLayout>

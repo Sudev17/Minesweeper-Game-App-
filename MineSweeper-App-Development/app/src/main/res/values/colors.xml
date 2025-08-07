@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#2196F3</color>
+    <color name="purple">#800080</color> <!-- Use any hex color code or predefined color -->
+    <color name="light_purple">#BA68C8</color>
+    <color name="dark_blue">#00008B</color>
+    <color name="navy_blue">#000080</color>
+    <color name="midnight_blue">#191970</color>
+    <color name="royal_blue">#4169E1</color>
+    <color name="dodger_blue">#1E90FF</color>
+    <color name="sky_blue">#87CEEB</color>
+    <color name="light_sky_blue">#87CEFA</color>
+    <color name="deep_sky_blue">#00BFFF</color>
+    <color name="powder_blue">#B0E0E6</color>
+    <color name="light_blue">#ADD8E6</color>
+    <color name="azure">#F0FFFF</color>
+    <color name="light_cyan">#E0FFFF</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="aquamarine">#7FFFD4</color>
+        <color name="indigo">#4B0082</color>
+        <color name="dark_slate_blue">#483D8B</color>
+        <color name="slate_blue">#6A5ACD</color>
+        <color name="medium_slate_blue">#7B68EE</color>
+        <color name="dark_violet">#9400D3</color>
+        <color name="dark_orchid">#9932CC</color>
+        <color name="medium_orchid">#BA55D3</color>
+        <color name="orchid">#DA70D6</color>
+        <color name="violet">#EE82EE</color>
+        <color name="plum">#DDA0DD</color>
+        <color name="lavender">#E6E6FA</color>
+        <color name="thistle">#D8BFD8</color>
+        <color name="medium_purple">#9370DB</color>
+        <color name="blue_violet">#8A2BE2</color>
+        <color name="dark_magenta">#8B008B</color>
+        <color name="red">#FF0000</color>
+        <color name="grey_100">#F5F5F5</color> <!-- Lightest shade of grey -->
+        <color name="grey_200">#EEEEEE</color>
+        <color name="grey_300">#E0E0E0</color>
+        <color name="grey_400">#BDBDBD</color>
+        <color name="grey_500">#9E9E9E</color> <!-- Medium shade of grey -->
+        <color name="grey_600">#757575</color>
+        <color name="grey_700">#616161</color>
+        <color name="grey_900">#212121</color> <!-- Darkest shade of grey -->
+</resources>

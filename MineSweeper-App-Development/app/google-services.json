@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "974617329019",
+    "project_id": "sdmworkshop-3b62a",
+    "storage_bucket": "sdmworkshop-3b62a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974617329019:android:cad39f63ae26dfade111de",
+        "android_client_info": {
+          "package_name": "com.example.minesweeper"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgtMXv1DjazaV0hZ18UgZpbTRe4-h10Nc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
